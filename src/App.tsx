@@ -38,7 +38,7 @@ function App() {
     <>
       <div className='w-10/12 bg-white border-2 border-solid border-red-500 mx-auto px-5 py-8 my-12'>
         <h1 className='text-center text-4xl'>LIST PRODUCT</h1>
-        <div className='grid grid-cols-3 gap-4 mt-8'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-8'>
           {products.map((product) => {
             console.log(product);
             return (
